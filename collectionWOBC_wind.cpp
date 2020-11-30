@@ -119,14 +119,3 @@ void pur_save_data(const Queue& col)
     fout.close();
 }
 
-//void collectionWOBC_wind::on_pushButton_clicked()
-//{
-
-//    QMessageBox::StandardButton save = QMessageBox::question(this, "Save", "Save collection?", QMessageBox::Yes | QMessageBox::No);
-//    if(save == QMessageBox::No)
-//    {
-//        this->pur_collection.clear();
-//    }
-//    pur_save_data(this->pur_collection);
-//    this->close();
-//}
